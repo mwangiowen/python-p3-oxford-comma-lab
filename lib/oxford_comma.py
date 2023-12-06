@@ -8,3 +8,5 @@ def oxford_comma(items):
     else:
         comma_separated = ", ".join(items[:-1])
         return f"{comma_separated}, and {items[-1]}"
+i = "owen","kevin","symon","mash"
+print(oxford_comma(i))
